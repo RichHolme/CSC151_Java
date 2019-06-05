@@ -27,9 +27,9 @@ public class Project_1_Test {
 		
 		
 		System.out.println("Here's your monthly payment.");
-		System.out.println(payment);
+		System.out.println(Math.round(payment * 100.0) / 100.0);
 		System.out.println("Here's how much you'll end up paying.");
-		System.out.println(payment * term + downPayment);
+		System.out.println(Math.round((payment * term + downPayment)* 100.0) / 100.0);
 		
 	}
 }
