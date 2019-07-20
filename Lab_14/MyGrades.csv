@@ -1,0 +1,6 @@
+Lab,80,25,=B1*C1/100
+REVEL,80,25,=B2*C2/100
+Midterm,80,20,=B3*C3/100
+Project,80,15,=B4*C4/100
+Final,80,15,=B5*C5/100
+Average,0,0,=(D1+D2+D3+D4+D5)
